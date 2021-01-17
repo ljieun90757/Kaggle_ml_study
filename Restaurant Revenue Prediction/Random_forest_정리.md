@@ -1,13 +1,14 @@
-# Random Forest 
-## 1. 결정 트리 앙상블 기법의 하나  
-### 1) 앙상블(ensemble)은 여러 머신러닝 모델을 연결하여 더 강력한 모델을 만드는 기법으로 앙상블 기법중 랜덤포레스트(random forest)와 그래디언트 부스팅(gradient boosting)은 둘 다 기본을 구성하는 요소가 결정 트리로 되어 있다.   
+## Random Forest 
+### 1. 결정 트리 앙상블 기법의 하나  
 
-### 2) 결정 트리는 분류를 위한 알고리즘이 아닌가? 
+#### 1) 앙상블(ensemble) 
+ - 여러 머신러닝 모델을 연결하여 더 강력한 모델을 만드는 기법으로 앙상블 기법중 랜덤포레스트(random forest)와 그래디언트 부스팅(gradient boosting)은 둘 다 기본을 구성하는 요소가 결정 트리로 되어 있다.   
+
+#### 2) 결정 트리는 분류를 위한 알고리즘이 아닌가? 
  - 결정 트리 알고리즘은 분류 뿐 아니라 회귀도 가능함 
  - 트리가 CART(Classification and Regression Tree) 기반으로 만들어져 있기 때문에, 회귀도 가능한 알고리즘임 
  - 분할의 기준은 RSS(SSE)가 최소가 될 수 있는 기준을 찾아서 분할 하게 되며, 최종 분할이 완료 된 후에 각 분할 영역에 있는 데이터 결정값들의 평균 값으로 학습/예측하게 됨 
- 
- 
+![Random_forest_dt_ex](https://user-images.githubusercontent.com/49746140/104828313-6b6eaf80-58ab-11eb-98df-ab4ec07a27eb.JPG)
 
 
 
